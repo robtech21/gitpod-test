@@ -1,1 +1,2 @@
-image: centos:latest
+image:
+  file: docker/Dockerfile
