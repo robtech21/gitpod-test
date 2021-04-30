@@ -1,2 +1,1 @@
-image:
-  file: docker/Dockerfile
+image: node:alpine
