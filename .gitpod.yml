@@ -1,1 +1,1 @@
-image: node:centos
+image: centos:latest
