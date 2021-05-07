@@ -1,3 +1,3 @@
 FROM node:current-buster
 
-RUN sudo apt update && sudo apt upgrade -y
+RUN apt update && apt upgrade -y && apt install sudo
