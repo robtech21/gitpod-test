@@ -1,3 +1,3 @@
-FROM node:current-buster
+FROM gitpod:workspace-full-vnc
 
-RUN apt update && apt install -y apt-utils sudo && apt upgrade -y
+RUN sudo apt update && sudo apt upgrade -y
